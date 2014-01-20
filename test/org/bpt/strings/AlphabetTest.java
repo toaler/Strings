@@ -6,7 +6,7 @@ public class AlphabetTest extends TestCase {
 	
 	public void testStringCtorWithDuplicateCharsInAlphabet() {
 		try {
-			Alphabet a = new Alphabet("011");
+			new Alphabet("011");
 			fail();
 		} catch (IllegalArgumentException e) {
 			// no-op
